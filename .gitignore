@@ -1,0 +1,26 @@
+# --- Ignorer les données confidentielles ---
+*.txt
+*.csv
+*.xml
+*.html
+
+# --- Ignorer les dossiers générés par le script ---
+Latitude*
+Precision*
+OptiPlex*
+Vostro*
+XPS*
+Surface*
+FRALW-*
+
+# --- Ignorer l'exécutable et les binaires ---
+# (On ne met que le code source sur GitHub, l'exe ira dans l'onglet "Releases")
+*.exe
+*.zip
+
+# --- Ignorer les fichiers système/temporaires ---
+*.tmp
+*.log
+.vscode/
+Desktop.ini
+Thumbs.db
