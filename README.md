@@ -29,3 +29,23 @@ Invoke-PS2EXE -InputFile ".\pc_validator.ps1" `
               -title "Win-Validate" `
               -description "Outil de Diagnostic Hardware" `
               -version "4.1.0.0"
+```
+
+## 📋 Guide d'Utilisation
+
+1.  **Préparation :** Copiez l'exécutable `Win-Validate_v4.1.exe` à la racine d'une clé USB.
+2.  **Lancement :** Branchez la clé sur le PC à tester et lancez le programme (Acceptez la demande Administrateur).
+3.  **Diagnostic :** Laissez le test se dérouler (durée env. 1 à 2 minutes). Une fenêtre de commande bleue vous indique la progression.
+4.  **Résultats :**
+    * Le rapport **TXT** s'ouvre automatiquement à la fin du test.
+    * Retrouvez les fichiers rangés sur votre clé USB :
+        * `\Latitude 5510\FRALW-XXXXXXX.txt` (Rapport individuel)
+        * `\Inventaire_Parc_Global.csv` (Suivi global du stock)
+
+## ⚠️ Avertissement
+
+Ce logiciel effectue des tests de stress (CPU et Batterie). Bien que sécurisés, ces tests sollicitent le matériel. L'auteur décline toute responsabilité en cas de panne survenant sur un matériel déjà défaillant ou en fin de vie lors de l'exécution du diagnostic.
+
+## 📄 Licence
+
+Ce projet est distribué sous la licence **MIT**. Vous êtes libre de l'utiliser, le modifier et le distribuer, à condition de conserver la notice de copyright.
