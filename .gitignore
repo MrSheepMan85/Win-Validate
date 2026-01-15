@@ -14,7 +14,6 @@ Surface*
 FRALW-*
 
 # --- Ignorer l'exécutable et les binaires ---
-# (On ne met que le code source sur GitHub, l'exe ira dans l'onglet "Releases")
 *.exe
 *.zip
 
