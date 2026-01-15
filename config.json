@@ -1,0 +1,20 @@
+{
+    "Seuils": {
+        "CPU_Ref": 9.2,
+        "RAM_Ref": 9.2,
+        "GPU_Ref": 6.2,
+        "Disk_Ref": 8.6
+    },
+    "StressTest": {
+        "Duree_Secondes": 120,
+        "Coeurs_Max": true
+    },
+    "Criteres": {
+        "Batterie_Min_Sante": 50,
+        "Batterie_Max_Perte": 7
+    },
+    "Fichiers": {
+        "Nom_Csv": "Inventaire_Parc_Global.csv",
+        "Nom_Log": "win_validate.log"
+    }
+}
