@@ -22,7 +22,7 @@
 Le script est conçu pour être compilé en `.exe`.
 
 ```powershell
-Invoke-PS2EXE -InputFile ".\pc_validator.ps1" `
+Invoke-PS2EXE -InputFile ".\win_validate.ps1" `
               -OutputFile ".\Win-Validate_v4.1.exe" `
               -icon ".\favicon.ico" `
               -requireAdmin `
